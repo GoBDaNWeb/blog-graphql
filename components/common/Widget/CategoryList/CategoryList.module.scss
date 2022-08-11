@@ -1,0 +1,16 @@
+.categoryList {
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            font-size: 1.2rem;
+            border-bottom: 1px solid black;
+            padding: .6rem;
+            cursor: pointer;
+            transition: 300ms ease;
+            &:hover {
+                padding: .6rem 3rem;
+            }
+        }
+    }
+}
